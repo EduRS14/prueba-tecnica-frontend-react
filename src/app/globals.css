@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #821a8b;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-general: var(--font-roboto);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-general);
+}
+
+@layer utilities {
+  .titulo{
+    font-size: 2rem;
+    color: #464647;
+    font-weight: 600;
+    font-style: italic;
+  }
+
+  .boton-pagina:hover{
+    background-color: #5c1a6e;
+    color: white;
+    cursor: pointer;
+  }
+
+  .boton-pagina:disabled{
+    background-color: #d9d9d9;
+    color: #a6a6a6;
+    cursor: not-allowed;
+  }
+
+  .btn-link:hover{
+    background-color: #572a85;
+    cursor: pointer;
+  }
+}

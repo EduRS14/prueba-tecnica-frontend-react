@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .texto-nav{
+    font-size: 1.2rem;
+    color: #713fa3;
+  }
+
+  .texto-nav:hover{
+    color: #572a85;
+  }
+}
