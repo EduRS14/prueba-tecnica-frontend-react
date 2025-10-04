@@ -3,7 +3,7 @@
 ### Desarrollador: **Eduardo Rivas**
 
 El presente proyecto representa el frontend de una aplicación. Está desarrollada
-usando las tecnologías React 19.1.0, Next.js 15.5.4 y Tailwind CSS.
+usando las tecnologías React 19.1.0, Next.js 15.5.4, TypeScript y Tailwind CSS.
 
 La aplicación se conecta a un backend hecho con Java 21, Spring Boot 3.5.6 y PostgreSQL, y con ello,
 a través de una interfaz limpia y ordenada, el usuario puede aprovechar la información.
